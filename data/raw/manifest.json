@@ -1,0 +1,408 @@
+[
+  {
+    "doc_id": "gdpr_2016_679",
+    "doc_type": "regulation",
+    "source_name": "GDPR",
+    "full_name": "Regulation (EU) 2016/679 of the European Parliament and of the Council",
+    "date": "2016-04-27",
+    "status": "active",
+    "path": "gdpr/CELEX_32016R0679_EN_TXT (1).pdf"
+  },
+  {
+    "doc_id": "edpb_gl_consent_202005",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 05/2020 on Consent",
+    "full_name": "Guidelines 05/2020 on Consent under Regulation 2016/679",
+    "date": "2020-05-04",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202005_consent_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_controllers_202007",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 07/2020 on Controllers and Processors",
+    "full_name": "Guidelines 07/2020 on the concepts of controller and processor in the GDPR",
+    "date": "2020-09-07",
+    "status": "active",
+    "path": "edpb/EDPB_guidelines_202007_controllerprocessor_final_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_dpdd_201904",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 04/2019 on Data Protection by Design",
+    "full_name": "Guidelines 4/2019 on Article 25 Data Protection by Design and by Default",
+    "date": "2019-11-13",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_health_202003",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 03/2020 on Health Data",
+    "full_name": "Guidelines 03/2020 on the processing of health data for the purpose of scientific research in the context of the COVID-19 outbreak",
+    "date": "2020-04-21",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202003_healthdatascientificresearchcovid19_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_vehicles_202001",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 01/2020 on Connected Vehicles",
+    "full_name": "Guidelines 01/2020 on Processing Personal Data in the Context of Connected Vehicles and Mobility related Applications",
+    "date": "2020-02-28",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202001_connected_vehicles_v2.0_adopted_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_breach_202209",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 09/2022 on Personal Data Breach Notification",
+    "full_name": "Guidelines 09/2022 on personal data breach notification under GDPR",
+    "date": "2023-03-28",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202209_personal_data_breach_notification_v2.0_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_access_202201",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 01/2022 on Data Subject Rights - Access",
+    "full_name": "Guidelines 01/2022 on data subject rights - Right of access",
+    "date": "2023-03-28",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202201_data_subject_rights_access_v2_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_targeting_202008",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 08/2020 on Targeting Social Media Users",
+    "full_name": "Guidelines 08/2020 on the targeting of social media users",
+    "date": "2020-11-02",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_082020_on_the_targeting_of_social_media_users_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_art23_202010",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 10/2020 on Article 23",
+    "full_name": "Guidelines 10/2020 on restrictions under Article 23 GDPR",
+    "date": "2021-10-13",
+    "status": "active",
+    "path": "edpb/edpb_guidelines202010_on_art23_adopted_after_consultation_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_psd2_202006",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 06/2020 on PSD2",
+    "full_name": "Guidelines 06/2020 on the interplay of the Second Payment Services Directive and the GDPR",
+    "date": "2020-11-16",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202006_psd2_afterpublicconsultation_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_video_201903",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 03/2019 on Video Devices",
+    "full_name": "Guidelines 3/2019 on processing of personal data through video devices",
+    "date": "2020-01-29",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_201903_video_devices_en_0.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_codes_conduct_201901",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 01/2019 on Codes of Conduct",
+    "full_name": "Guidelines 1/2019 on Codes of Conduct and Monitoring Bodies",
+    "date": "2019-06-04",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_201901_v2.0_codesofconduct_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_transfers_202002",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 02/2020 on International Transfers - Public Bodies",
+    "full_name": "Guidelines 2/2020 on articles 46(2)(a) and 46(3)(b) of Regulation 2016/679 for transfers of personal data between EEA and non-EEA public authorities and bodies",
+    "date": "2021-11-18",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202002_art46guidelines_internationaltransferspublicbodies_v2_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_fines_202204",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 04/2022 on Calculation of Fines",
+    "full_name": "Guidelines 04/2022 on the calculation of administrative fines under the GDPR",
+    "date": "2023-05-24",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_042022_calculationofadministrativefines_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_art60_202202",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 02/2022 on Article 60",
+    "full_name": "Guidelines 02/2022 on the application of Article 60 GDPR",
+    "date": "2022-10-17",
+    "status": "active",
+    "path": "edpb/guidelines_202202_on_the_application_of_article_60_gdpr_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_deceptive_design_202203",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 03/2022 on Deceptive Design Patterns",
+    "full_name": "Guidelines 03/2022 on deceptive design patterns in social media platform interfaces",
+    "date": "2023-02-14",
+    "status": "active",
+    "path": "edpb/edpb_03-2022_guidelines_on_deceptive_design_patterns_in_social_media_platform_interfaces_v2_en_0.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_frt_202304",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 04/2023 on Facial Recognition",
+    "full_name": "Guidelines 04/2023 on Facial Recognition Technology in the Area of Law Enforcement",
+    "date": "2024-04-17",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202304_frtlawenforcement_v2_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_art48_202402",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 02/2024 on Article 48",
+    "full_name": "Guidelines 02/2024 on Article 48 GDPR",
+    "date": "2024-10-08",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202402_article48_v2_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_art6_1b_guidelines",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines on Article 6(1)(b)",
+    "full_name": "Guidelines on the legal basis for processing under Article 6(1)(b) GDPR",
+    "date": "2019-10-09",
+    "status": "active",
+    "path": "edpb/edpb_guidelines-art_6-1-b-adopted_after_public_consultation_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_rtbf_201905",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 05/2019 on Right to be Forgotten",
+    "full_name": "Guidelines 5/2019 on the criteria of the Right to be Forgotten in the search engines cases under the GDPR",
+    "date": "2020-02-07",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_201905_rtbfsearchengines_afterpublicconsultation_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_dpo_wp243",
+    "doc_type": "guideline",
+    "source_name": "WP243 Guidelines on Data Protection Officers",
+    "full_name": "Guidelines on Data Protection Officers (WP243 rev.01)",
+    "date": "2017-04-05",
+    "status": "active",
+    "path": "edpb/wp243_rev_01_en_D8C7A64C-9064-B4B5-543CB5093ACA4937_44100 (4).pdf"
+  },
+  {
+    "doc_id": "edpb_gl_portability_wp242",
+    "doc_type": "guideline",
+    "source_name": "WP242 Guidelines on Data Portability",
+    "full_name": "Guidelines on the right to data portability (WP242 rev.01)",
+    "date": "2017-04-05",
+    "status": "active",
+    "path": "edpb/wp242_rev_01_en_D8A6FCF6-9039-846A-0C8040819826D818_44099 (2).pdf"
+  },
+  {
+    "doc_id": "edpb_gl_transparency_wp260",
+    "doc_type": "guideline",
+    "source_name": "WP260 Guidelines on Transparency",
+    "full_name": "Guidelines on Transparency under Regulation 2016/679 (WP260 rev.01)",
+    "date": "2018-04-11",
+    "status": "active",
+    "path": "edpb/wp260rev01_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_dpia_wp248",
+    "doc_type": "guideline",
+    "source_name": "WP248 Guidelines on Data Protection Impact Assessment",
+    "full_name": "Guidelines on Data Protection Impact Assessment and determining whether processing is likely to result in a high risk (WP248 rev.01)",
+    "date": "2017-10-04",
+    "status": "active",
+    "path": "edpb/20171013_wp248_rev_01_en_D7D5A266-FAE9-3CA1-65B7371E82EE1891_47711 (1).pdf"
+  },
+  {
+    "doc_id": "edpb_gl_lead_authority_wp244",
+    "doc_type": "guideline",
+    "source_name": "WP244 Guidelines on Lead Supervisory Authority",
+    "full_name": "Guidelines for identifying a controller or processor's lead supervisory authority (WP244 rev.01)",
+    "date": "2017-04-05",
+    "status": "active",
+    "path": "edpb/wp244_rev_01_en_D8F5C63C-0B05-0150-00FADAD64B767E4E_44102.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_bcr_wp251",
+    "doc_type": "guideline",
+    "source_name": "WP251 Guidelines on Binding Corporate Rules",
+    "full_name": "Working Document setting up a table with the elements and principles to be found in Binding Corporate Rules (WP251 rev.01)",
+    "date": "2018-02-06",
+    "status": "active",
+    "path": "edpb/wp251rev_01_en_A754F3E1-FB46-9E76-C0A919864E4B6641_49826.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_art30_wp248",
+    "doc_type": "guideline",
+    "source_name": "WP248 Position Paper on Article 30",
+    "full_name": "Position paper on the derogations from the obligation to maintain records of processing activities under Article 30(5) GDPR",
+    "date": "2018-04-19",
+    "status": "active",
+    "path": "edpb/20180419_art29_wp_position_paper_art_30_publish_AF01E86A-01CE-DBDD-6368D0296A2413B0_51422 (1).pdf"
+  },
+  {
+    "doc_id": "edpb_gl_consent_wp250",
+    "doc_type": "guideline",
+    "source_name": "WP250 Guidelines on Consent",
+    "full_name": "Guidelines on Consent under Regulation 2016/679 (WP250 rev.01)",
+    "date": "2018-04-10",
+    "status": "superseded",
+    "superseded_by": "edpb_gl_consent_202005",
+    "path": "edpb/20180713_wp250rev_01_en_C521EC14-99FD-FB6A-F550FB846F60A5C1_49827.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_contact_tracing_202004",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 04/2020 on Contact Tracing",
+    "full_name": "Guidelines 04/2020 on the use of location data and contact tracing tools in the context of the COVID-19 outbreak",
+    "date": "2020-05-21",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_20200420_contact_tracing_covid_with_annex_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_interplay_ch5_202105",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 05/2021 on Interplay Art.3 and Chapter V",
+    "full_name": "Guidelines 05/2021 on the Interplay between the application of Article 3 and the provisions on international transfers as per Chapter V of the GDPR",
+    "date": "2021-11-18",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_05-2021_interplay_between_the_application_of_art3-chapter_v_of_the_gdpr_v2_en_0.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_certification_transfers_202207",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 07/2022 on Certification as Transfer Tool",
+    "full_name": "Guidelines 07/2022 on certification as a tool for transfers",
+    "date": "2023-05-15",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_07-2022_on_certification_as_a_tool_for_transfers_v2_en_0.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_art37_led_202301",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 01/2023 on Article 37 LED",
+    "full_name": "Guidelines 01/2023 on Article 37 of the Law Enforcement Directive",
+    "date": "2023-11-14",
+    "status": "active",
+    "path": "edpb/edpb-guidelines-202301_art_37_led_final_0_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_eprivacy_202302",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 02/2023 on Technical Scope of ePrivacy",
+    "full_name": "Guidelines 02/2023 on Technical Scope of Art. 5(3) of ePrivacy Directive",
+    "date": "2023-11-14",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202302_technical_scope_art_53_eprivacydirective_v2_en_0.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_derogations_2018_2",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 2/2018 on Derogations",
+    "full_name": "Guidelines 2/2018 on derogations of Article 49 under Regulation 2016/679",
+    "date": "2018-05-25",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_2_2018_derogations_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_territorial_scope_3_2018",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 3/2018 on Territorial Scope",
+    "full_name": "Guidelines 3/2018 on the territorial scope of the GDPR (Article 3)",
+    "date": "2019-11-12",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_3_2018_territorial_scope_after_public_consultation_en_1.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_codes_conduct_transfers",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines on Codes of Conduct as Transfer Tools",
+    "full_name": "Guidelines 04/2021 on Codes of Conduct as tools for transfers",
+    "date": "2021-06-18",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_codes_conduct_transfers_after_public_consultation_en_1.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_cert_criteria_201801",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines on Certification Criteria",
+    "full_name": "Guidelines 1/2018 on certification and identifying certification criteria",
+    "date": "2019-06-04",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_201801_v3.0_certificationcriteria_annex2_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_accreditation_201804",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines on Accreditation of Certification Bodies",
+    "full_name": "Guidelines 4/2018 on the accreditation of certification bodies",
+    "date": "2019-06-04",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_201804_v3.0_accreditationcertificationbodies_annex1_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_settlements_202206",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 02/2022 on Amicable Settlements",
+    "full_name": "Guidelines 02/2022 on the practical implementation of Article 60(7)(f) GDPR - amicable settlements",
+    "date": "2023-01-24",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202206_on_the_practical_implementation_of_amicable_settlements_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_lsa_202208",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 08/2022 on Identifying Lead Supervisory Authority",
+    "full_name": "Guidelines 08/2022 on identifying a controller or processor's lead supervisory authority",
+    "date": "2022-09-09",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202208_identifying_lsa_targeted_update_v2_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_vva_202102",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 02/2021 on Virtual Voice Assistants",
+    "full_name": "Guidelines 02/2021 on virtual voice assistants",
+    "date": "2021-07-07",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202102_on_vva_v2.0_adopted_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_rro_202009",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 09/2020 on Relevant and Reasoned Objections",
+    "full_name": "Guidelines 09/2020 on relevant and reasoned objection under Regulation 2016/679",
+    "date": "2021-03-09",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202009_rro_final_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_breach_notification_202101",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 01/2021 on Personal Data Breach Notification",
+    "full_name": "Guidelines 01/2021 on Examples regarding Personal Data Breach Notification",
+    "date": "2021-03-14",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_012021_pdbnotification_adopted_en.pdf"
+  },
+  {
+    "doc_id": "edpb_gl_art65_202103",
+    "doc_type": "guideline",
+    "source_name": "EDPB Guidelines 03/2021 on Article 65",
+    "full_name": "Guidelines 03/2021 on the application of Article 65(1)(a) GDPR",
+    "date": "2021-10-29",
+    "status": "active",
+    "path": "edpb/edpb_guidelines_202103_article65-1-a_v2_en.pdf"
+  }
+]

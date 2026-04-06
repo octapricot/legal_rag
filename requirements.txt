@@ -1,0 +1,28 @@
+# PDF parsing
+pdfplumber==0.11.4
+pymupdf==1.24.10
+ftfy==6.2.3
+
+# Embeddings & reranking
+sentence-transformers==3.3.1
+
+# Vector store
+chromadb==0.5.23
+
+# BM25
+rank-bm25==0.2.2
+
+# LLM
+ollama==0.4.4
+
+# Output validation
+pydantic==2.10.3
+
+# API layer
+fastapi==0.115.6
+uvicorn==0.32.1
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.67.1
+numpy==1.26.4

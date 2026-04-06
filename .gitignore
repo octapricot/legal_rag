@@ -1,0 +1,26 @@
+# Environment
+.env
+
+# Vector index and BM25 (large binary files — rebuild with: python3 main.py ingest)
+data/index/
+
+# Raw PDFs (large files — add your own under data/raw/)
+data/raw/gdpr/
+data/raw/edpb/
+
+# Generated output
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# macOS
+.DS_Store

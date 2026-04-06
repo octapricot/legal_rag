@@ -185,11 +185,17 @@ def _validate_citations(
     Check that every citation_key in the output actually appears in retrieved chunks.
     Returns a list of warning strings (empty = all good).
     """
+    # Normalize keys by stripping deduplication/split suffixes like "[v2]" or "[part 3]"
+    _suffix = re.compile(r"\s+\[(v\d+|part \d+)\]$")
+    def _norm(key: str) -> str:
+        return _suffix.sub("", key).strip()
+
     valid_keys = {chunk.citation_key for chunk in retrieved_chunks}
+    valid_keys_norm = {_norm(k) for k in valid_keys}
     warnings = []
     for provision in output.applicable_provisions:
         key = provision.citation_key
-        if key not in valid_keys:
+        if key not in valid_keys and _norm(key) not in valid_keys_norm:
             warnings.append(f"HALLUCINATION WARNING: '{key}' was not in the retrieved sources.")
         # Check GDPR article numbers
         if "Art." in key:

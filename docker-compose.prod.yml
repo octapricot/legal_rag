@@ -1,0 +1,32 @@
+# Production — no Ollama, uses Claude API for LLM
+# Usage (local prod simulation):
+#   docker-compose -f docker-compose.prod.yml up --build
+#
+# In actual cloud deployment this file is used by the CI/CD pipeline.
+# Secrets are injected via environment variables (ECS task definition / Secrets Manager).
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - LLM_BACKEND=api
+      - API_MODEL=claude-haiku-4-5-20251001
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - INDEX_DIR=/data/index
+      - DATA_RAW_DIR=/data/raw
+      - BM25_TOP_K=50
+      - DENSE_TOP_K=50
+      - RERANK_TOP_K=8
+    volumes:
+      # In ECS this volume is backed by EFS (see infra/main.tf)
+      - index_data:/data/index
+      - raw_data:/data/raw
+      - huggingface_cache:/root/.cache/huggingface
+    restart: unless-stopped
+
+volumes:
+  index_data:
+  raw_data:
+  huggingface_cache:

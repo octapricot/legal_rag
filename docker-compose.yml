@@ -1,0 +1,44 @@
+# Local development — backend + Ollama running side by side
+# Usage:
+#   docker-compose up --build
+#   Then open http://localhost:8000
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - LLM_BACKEND=ollama
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - INDEX_DIR=/data/index
+      - DATA_RAW_DIR=/data/raw
+    volumes:
+      # Mount pre-built index and raw PDFs from host
+      - ./data:/data
+      # Cache HuggingFace models so they survive container restarts
+      - huggingface_cache:/root/.cache/huggingface
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    restart: unless-stopped
+
+volumes:
+  ollama_models:
+  huggingface_cache:

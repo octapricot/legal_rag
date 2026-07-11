@@ -295,17 +295,22 @@ class LegalRetriever:
         query: str,
         top_k: int = RERANK_TOP_K,
         doc_type_filter: Optional[str] = None,
+        min_rerank_score: float = 4.5,
     ) -> list[RetrievedChunk]:
         """
         Full hybrid retrieval pipeline.
 
         Args:
             query: Natural language legal query.
-            top_k: Number of chunks to return after reranking.
+            top_k: Maximum number of chunks to return (actual count may be lower).
             doc_type_filter: "regulation" or "guideline" to restrict corpus.
+            min_rerank_score: Minimum cross-encoder score to include a chunk.
+                              Chunks below this are dropped even if in top_k.
+                              Set to 0.0 to disable filtering.
 
         Returns:
             List of RetrievedChunk objects, ranked by reranker score.
+            May be shorter than top_k if few chunks are sufficiently relevant.
         """
         expanded_query = _expand_query(query)
 
@@ -344,6 +349,10 @@ class LegalRetriever:
 
         # Step 6: Rerank
         reranked = self._rerank(query, chunks, candidate_ids)
+
+        # Step 7: Apply relevance threshold — drop chunks below min_rerank_score
+        if min_rerank_score > 0:
+            reranked = [c for c in reranked if c.rerank_score >= min_rerank_score]
 
         return reranked[:top_k]
 

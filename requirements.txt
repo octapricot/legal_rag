@@ -21,6 +21,8 @@ pydantic==2.10.3
 # API layer
 fastapi==0.115.6
 uvicorn==0.32.1
+python-multipart==0.0.12   # required by fastapi for file/form handling
+aiofiles==24.1.0            # required by fastapi StaticFiles
 
 # Utilities
 python-dotenv==1.0.1
